@@ -12,7 +12,7 @@ You are being given a prototype to follow for content placement, component desig
 > **Pro Tip:** A well-designed site has patterns - things that are reused and repeated across the entire site. And this is an ecommerce site: **details are critical**. Pay attention to font size, placement, alignment. White space is your friend. 
 
 1. Follow the [prototype](https://9yg393.axshare.com/#g=1&p=home&c=1). 
-1. Use the [style guide](https://github.com/nashville-software-school/uix-look-alike/blob/master/style_guide.png)for fonts and colors. 
+1. Use the [style guide](https://github.com/nashville-software-school/uix-look-alike/blob/master/style_guide.png) for fonts and colors. 
 1. Make sure you follow the prototype and style guide **PRECISELY**. There is no room for creative tweaks or editorial changes. Ask questions if something isn't clear. 
 
 ## Technical Considerations
