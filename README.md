@@ -22,4 +22,4 @@ You are being given a prototype to follow for content placement, component desig
 * Grunt (with JSHINT) 
 
 ## Deadline
-* You have 24 hours to complete this site.  
+* You have 24 hours to complete this site:  Wednesday, 4pm. 
