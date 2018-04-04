@@ -1,0 +1,84 @@
+.nav-item{
+    font-size: .8em;
+}
+
+
+.nav-link{
+    color: black;
+    font-family: 'PT serif', serif;
+
+}
+
+.nav-link:hover{
+    color: #f6d9ea;
+}
+
+.header-name{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'PT serif', serif;
+    font-size: .82em;
+}
+
+.best-seller{
+    font-family: 'Nunito', sans-serif;
+}
+
+.card-title, .card-text {
+    font-size: .85em;
+}
+
+.card{
+    border: none;
+    border-radius: 0;
+}
+
+.carousel-content {
+    font-size:2em;
+    position: absolute;
+    top: 164px;
+    left: 136px;
+    z-index: 20;
+    color: white;
+  }
+
+.btn{
+    border-radius: 0;
+}
+
+.all-cookies{
+    background-color: white;
+    color:black;
+    font-size: .8em;
+    border: 1px solid black;
+    bottom: -428px;
+    left:580px;
+    z-index:1;
+    position: absolute;
+}
+
+h5 {
+    font-size: 1.5em;
+}
+
+.all-cookies:hover{
+    background-color:white;
+    border: 1px solid black;
+}
+
+.purp-background{
+    background-color:#f3f3f3;
+}
+
+.footer{
+    background-color:#f6d9ea;
+}
+
+.list-group-item {
+    border:none;
+    font-size: .8em;
+    line-height: 3px;
+}
