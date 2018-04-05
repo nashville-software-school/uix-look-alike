@@ -5,13 +5,127 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Wheatley | UIX Lookalike</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg d-flex justify-content-between">
+        <div class="container">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#cookieToggler" aria-controls="cookieToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <span class="navbar-brand d-lg-none"><a class="navbar-brand" href="#">Deina's Bites</a></span>
+        <div class="d-flex flex-nowrap collapse navbar-collapse" id="cookieToggler">
+            <div class="row navbar-nav align-items-end nav-fill w-100 mt-lg-0 no-gutters">
+                <div class="col col-auto nav-item text-left"><a class="nav-link nav-pink" href="#">Home</a></div>
+                <div class="col col-auto nav-item text-left"><a class="nav-link" href="/shop.html">Shop</a></div>
+                <div class="col col-auto nav-item text-left" style="text-align:left;"><a class="nav-link" href="/about.html">About Me</a></div>
+                <div class="col col-5 nav-item d-none d-lg-block"><a class="navbar-brand" href="#">Deina's Bites</a></div>
+                <div class="col col-auto nav-item ml-auto text-right"><a class="nav-link" href="#">Instagram </a></div>
+                <div class="col col-auto nav-item ml-auto text-right"><a class="nav-link " href="#">Facebook</a></div>
+                <div class="col col-auto nav-item ml-auto text-right"><a class="nav-link " href="#">YouTube</a></div>
+                <div class="col col-auto ml-auto text-center"><a class="nav-link" href="#"><img class="nav-link-img" src="../images/bag_icon.png" alt="shopping bag icon"></a></div>        
+            </div><!--end row-->
+        </div><!--end collapse-->
+        </div><!--end container-->
+    </nav>
+    
+<main>
+<!--HERO-->
+    <div id="heroCarousel" class="carousel slide" data-ride="carousel" data-interval="20000">
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <img class="d-block img-fluid" src="./images/home_banner_pink1.png" alt="A box of cookies alongside artfully strewn cookies, cinnamon sticks, and an open orange jam jar on the right side of a pink background">
+                <div class="carousel-caption d-none d-md-block mr-auto">
+                    <p class="heroHeader">100% Natural.</p>
+                    <p class="heroHeaderSans">Homemade<br />Fresh Cookies.</p>
+                    <button type="button" class="btn btn-secondary btn-lg text-uppercase">Shop Now</button>
+                </div>
+            </div>    
+            <div class="carousel-item">
+                <img class="d-block img-fluid" src="./images/home_banner_lav2.png" alt="Deina's Bites box and two cookies, one of which has a bit taken out, on the right side of a lavender background">
+                <div class="carousel-caption d-none d-md-block mr-auto">
+                    <p class="heroHeader">100% Natural.</p>
+                    <p class="heroHeaderSans">Homemade<br />Fresh Cookies.</p>
+                    <button type="button" class="btn btn-secondary btn-lg text-uppercase">Shop Now</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block img-fluid" src="./images/home_banner_blue3.png" alt="Baking supplies on the right side of a light blue background">
+                <div class="carousel-caption d-none d-md-block mr-auto">
+                    <p class="heroHeader">100% Natural.</p>
+                    <p class="heroHeaderSans">Homemade<br />Fresh Cookies.</p>
+                    <button type="button" class="btn btn-secondary btn-lg text-uppercase">Shop Now</button>
+                </div>
+            </div>
+        </div>
+    </div><!--END HERO-->
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="dist/app.js"></script>
+<!--BEST SELLERS CARDS-->
+    <div id="bestSellers" class="container">
+        <div class="row">
+            <div class="col-8 mx-auto">
+                <h2 class="text-center mb-5">/ Best Sellers</h2>
+                <p class="text-center">I'm a paragraph. Click here to add your own text and edit me. </p>
+            </div>
+        </div><!--end row-->
+
+        <div class="row  mt-5">
+            <div class="col-sm-4">
+                <img class="img-fluid cookie" src="/images/white_choc.png" alt="white chocolate cookie on blue background">
+                <img class="img-fluid d-none" src="/images/white_choc-qv.png" alt="white chocolate cookie broken into pieces on blue background">
+                <div class="mt-4 text-center">
+                    <h4>White Chocolate Bites</h4>
+                    <p class="price">$1.00</p>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <img class="img-fluid cookie" src="/images/oatmeal_bites.png" alt="oatmeal raisincookie on pink background">
+                <img class="img-fluid  d-none" src="/images/oatmeal_bites-qv.png" alt="oatmeal raisin cookie broken into pieces on pink background">
+                <div class="mt-4 text-center">
+                    <h4>Oatmeal Bites</h4>
+                    <p class="price">$2.00</p>
+                </div>
+            </div>
+  
+            <div class="col-sm-4">
+                <img class="img-fluid cookie" src="/images/jam_poppy.png" alt="jam and poppy seed cookie on purple background">
+                <img class="img-fluid  d-none" src="/images/jam_poppy-qv.png" alt="jam and poppy seed cookie with bite taken out on purple background">
+                <div class="mt-4 text-center">
+                    <h4>Jam &amp; Poppy Seed Bites</h4>
+                    <p class="price">$1.00</p>
+                </div>
+            </div>
+           <button id="allCookies" class="btn btn-allCookies btn-lg text-uppercase mx-auto">All Cookies</button>     
+        </div><!--end row-->
+    </div><!--end best sellers-->
+    <div id="moreBites">
+        <div class="row">
+            <div class="col-12 mx-auto">
+                <h2 class="text-center">/ Follow Me for More Bites</h2>
+            </div>
+        </div>
+        <div class="row  mt-5">
+            <div class="col-sm-3">
+                <img class="img-fluid" src="/images/white_choc.png" alt="white chocolate cookie on blue background">
+            </div>
+    
+            <div class="col-sm-3">
+                <img class="img-fluid" src="/images/oatmeal_bites.png" alt="oatmeal raisincookie on pink background">
+            </div>
+    
+            <div class="col-sm-3">
+                <img class="img-fluid" src="/images/oatmeal_bites.png" alt="oatmeal raisincookie on pink background">
+            </div>
+        </div>
+    </div>
+                   
+
+</main>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="dist/app.js"></script>
 </body>
 </html>

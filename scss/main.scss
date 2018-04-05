@@ -1,5 +1,5 @@
 //FONT IMPORTS
-@import url('https://fonts.googleapis.com/css?family=Nunito|PT+Serif');
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600,800|PT+Serif');
 
 //Variables
 $black: #191919;
@@ -8,7 +8,163 @@ $pink: #f6d9ea;
 $lilac: #d2d5ea;
 $mist: #f3f3f3;
 $blue: #bddce3;
+$rose: #edccdd;
 
+//REM BASIS
+html {
+    font-size: 62.5%;
+}
 
 //Base Styles
+body{
+    width: 87.5%;
+    margin-left: auto; 
+    margin-right: auto;
+}
+nav{
+    font-family: 'Nunito', Helvetica, Arial, sans-serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
 
+p{
+    font-family: 'PT Serif', Garamond, serif;
+    color: $black;
+    font-size: 1.4rem;
+}
+
+h2{
+    font-family: 'Nunito', Helvetica, Arial, sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: .15rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+h4{
+    font-family: 'Nunito', Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+a:active{
+    color: $rose;
+}
+
+
+// ID styling
+#bestSellers{
+    margin-top: 8rem;
+    padding-bottom: 5rem;
+    border-bottom: 1px solid $black;
+}
+
+#allCookies{
+    position: relative;
+    top: 6.8rem;
+}
+
+#moreBites{
+    margin-top: 8rem;
+}
+
+//Classes
+.navbar>.container{
+    padding: 0 10rem 2.5rem;
+    margin-top: 3.5rem;
+}
+
+.btn{
+    padding: .8rem 2rem;
+    border-radius: 0rem;
+    border: none;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.btn-secondary{
+    background-color: white;
+    color: $black;
+    margin-top: 40px;
+}
+
+.btn-secondary:hover{
+    background-color: $black;
+    color: white;
+}
+
+.navbar-collapse{
+    justify-content: space-between;
+}
+
+.nav-link{
+    color: $black;
+    font-weight: 800;
+}
+.nav-link:hover{
+    text-decoration: underline;
+    color: $black;
+}
+
+.nav-pink{
+    color: $rose;
+}
+
+.navbar-brand {
+    font-family: 'PT Serif', Garamond, serif;
+    color: $black;
+    font-size: 2.4rem;
+    text-align: center;
+    text-transform: none;
+    margin-right: 0;
+    padding: 0;
+}
+
+a.navbar-brand:hover{
+    text-decoration: none;
+    color: $black;
+}
+.navbar-toggle {
+    z-index:3;
+}
+
+.nav-link-img{
+    display: inline-block;
+    max-width: 40%;
+    text-align: right;
+    flex-basis: 0;
+}
+
+.carousel-caption{
+    text-align: left;
+    bottom: 130px;
+    left: 11%;
+}
+
+
+.heroHeader{
+    font-family: 'PT Serif', Garamond, serif;
+    margin-bottom: 0;
+    font-size: 4.7rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.heroHeaderSans{ 
+    font-family: 'Nunito', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    line-height: 1.2;
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    color: white;
+}
+
+.btn-allCookies{
+    z-index: 100;
+    background-color: white;
+    color: $black;
+    border: 1px solid $black;
+}
