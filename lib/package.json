@@ -1,0 +1,39 @@
+{
+  "name": "lib",
+  "version": "1.0.0",
+  "description": "lookalike 24 hour challenge",
+  "main": "GruntFile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melissawheatley/uix-look-alike.git"
+  },
+  "author": "Melissa Wheatley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melissawheatley/uix-look-alike/issues"
+  },
+  "homepage": "https://github.com/melissawheatley/uix-look-alike#readme",
+  "devDependencies": {
+    "browserify": "^13.1.1",
+    "grunt": "^1.0.1",
+    "grunt-browserify": "^5.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-nodeunit": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "jquery": "^3.3.1",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1",
+    "matchdep": "^1.0.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "country-region-dropdown-menu": "^1.2.1",
+    "firebase": "^3.6.9",
+    "jQuery": "^1.7.4"
+  }
+}
