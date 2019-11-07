@@ -16,10 +16,10 @@ You are being given a prototype to follow for content placement, component desig
 1. Make sure you follow the prototype and style guide **PRECISELY**. There is no room for creative tweaks or editorial changes. Ask questions if something isn't clear. 
 
 ## Technical Considerations
-* Use SASS, grid, bootstrap, materialize, to control your layout and colors.
+* Use a style library to control your layout and colors.
 
 ## Technology Requirements
-* Grunt (with JSHINT) 
+* ES6 Modules
 
 ## Deadline
-* You have 24 hours to complete this site:  Wednesday, 4pm. 
+* You have 24 hours to complete this site.
